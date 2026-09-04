@@ -19,8 +19,6 @@ int main() {
   cout << "Second number: ";
   cin >> b;
   
-
-  // TODO: compute sum, difference, product into named doubles
   // Computing the sum, difference, and product of the two numbers
   sum = a + b;
   difference = a - b;
