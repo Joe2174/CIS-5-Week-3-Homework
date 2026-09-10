@@ -20,7 +20,7 @@ int main() {
   cout << "Second number: ";
   cin >> b;
   
-  // Computing the sum, difference, and product of the two numbers
+  // Computing the sum, difference, product, and ratio of the two numbers
   sum = a + b;
   difference = a - b;
   product = a * b;
