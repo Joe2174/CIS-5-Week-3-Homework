@@ -30,9 +30,10 @@ int main() {
 		cout << "GPA: ";
 		cin >> GPA;
 		// The choice for char, is because the initial is a single character. Carries 1 byte.
-		char initial;
-		cout << "Initial: ";
-		cin >> initial;
+		// Changed char to string because initials can be more than one character. Carries 1 byte per character.
+		string initials;
+		cout << "Initials: ";
+		cin >> initials;
 		// The choice for bool, is because the student variable can only be true or false.
 		bool student;
 		cout << "Student: ";
@@ -46,11 +47,12 @@ int main() {
 		cout << "Last Name: " << last << "\n";
 		cout << "Age: " << Age << "\n";
 		cout << "Height (m): " << height_m << "\n";
-		cout << "Initial: " << initial << "\n";
+		cout << "Initials: " << initials << "\n";
 		cout << "Student: " << student << "\n";
 		cout << "Credits: " << Credits << "\n";
 		cout << "GPA: " << GPA << "\n";
 		cout << "Current Year: " << CURRENT_YEAR << "\n";
+		cout << "====================\n";
 		cout << first << " " << last << " is " << Age << " years old, " << height_m << " meters tall, and has a GPA of " << GPA << ".\n";
 
   // TODO: change one value from a first choice. Comment the old value,
