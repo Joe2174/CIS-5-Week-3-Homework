@@ -55,9 +55,6 @@ int main() {
 		cout << "====================\n";
 		cout << first << " " << last << " is " << Age << " years old, " << height_m << " meters tall, and has a GPA of " << GPA << ".\n";
 
-  // TODO: change one value from a first choice. Comment the old value,
-  // the new value, and why the console followed.
-
   // char confirmation = "String"; // would not compile — char can only hold a single character, not a string.
   // bool student = 300 ; // would not compile — bool can only hold true or false, not an integer.
 
