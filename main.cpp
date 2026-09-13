@@ -10,9 +10,11 @@ int main() {
 	using std::cin;
 	using std::string;
 
-		string name;
-		cout << "Name: ";
-		cin >> name;
+		string first, last;
+		cout << "First Name: ";
+		cin >> first;
+		cout << "Last Name: ";
+		cin >> last;
 		// The choice for in, is because both age and credits are whole numbers. Int can carry 4 bytes.
 		int Age = 0;
 		cout << "Age: ";
@@ -39,7 +41,8 @@ int main() {
 
 		// Summarize the inputted information
 		cout << "==== About me ====\n";
-		cout << "Name: " << name << "\n";
+		cout << "First Name: " << first << "\n";
+		cout << "Last Name: " << last << "\n";
 		cout << "Age: " << Age << "\n";
 		cout << "Height (m): " << height_m << "\n";
 		cout << "Initial: " << initial << "\n";
@@ -47,7 +50,7 @@ int main() {
 		cout << "Credits: " << Credits << "\n";
 		cout << "GPA: " << GPA << "\n";
 		cout << "Current Year: " << CURRENT_YEAR << "\n";
-		// TODO: labeled prints for every variable + CURRENT_YEAR
+		
 
   // TODO: a comment that explains a type choice (why int, why double, or why const)
   // TODO: labeled lines from the names
@@ -56,10 +59,8 @@ int main() {
   // TODO: change one value from a first choice. Comment the old value,
   // the new value, and why the console followed.
 
-  // TODO: two lines that would not compile — leave them commented
-  // Example shape (write your own, with the reason):
-  // int age = "nineteen";   // would not compile — ...
-  // CURRENT_YEAR = 2027;    // would not compile — ...
+  // char confirmation = "String"; // would not compile — char can only hold a single character, not a string.
+  // bool student = 300 ; // would not compile — bool can only hold true or false, not an integer.
 
   return 0;
 }
