@@ -37,6 +37,7 @@ int main() {
 		bool student;
 		cout << "Student: ";
 		cin >> student;
+		// The choice for const int, is because the current year will not change. I also do not want it to be changed. Carries 4 bytes.
 		const int CURRENT_YEAR = 2026;
 
 		// Summarize the inputted information
@@ -50,11 +51,7 @@ int main() {
 		cout << "Credits: " << Credits << "\n";
 		cout << "GPA: " << GPA << "\n";
 		cout << "Current Year: " << CURRENT_YEAR << "\n";
-		
-
-  // TODO: a comment that explains a type choice (why int, why double, or why const)
-  // TODO: labeled lines from the names
-  // TODO: one short paragraph from those same names — not leftover quotes
+		cout << first << " " << last << " is " << Age << " years old, " << height_m << " meters tall, and has a GPA of " << GPA << ".\n";
 
   // TODO: change one value from a first choice. Comment the old value,
   // the new value, and why the console followed.
